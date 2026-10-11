@@ -1,0 +1,4632 @@
+{
+  "info": {
+    "_postman_id": "4d49bf5e-beae-41e9-9001-4c61812fd663",
+    "name": "EduShopMidProject",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "57560009",
+    "_collection_link": "https://go.postman.co/collection/57560009-4d49bf5e-beae-41e9-9001-4c61812fd663?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Authentication",
+      "item": [
+        {
+          "name": "TC_AUTH_001",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"FirstName\": \"John\",\r\n  \"LastName\": \"Jones\",\r\n  \"Email\": \"JohnJones@ufc.com\",\r\n  \"Password\": \"Jh0ne!\",\r\n  \"ConfirmPassword\": \"Jh0ne!\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/auth/register",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "auth",
+                "register"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_AUTH_002",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"FirstName\": \"Tom\",\r\n  \"LastName\": \"Aspinall\",\r\n  \"Email\": \"Tomaspinall@ufc.com\",\r\n  \"Password\": \"T0m!\",\r\n  \"ConfirmPassword\": \"T0m!\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/auth/register",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "auth",
+                "register"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_AUTH_003",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"FirstName\": \"Tom\",\r\n  \"LastName\": \"Aspinall\",\r\n  \"Email\": \"Tomaspinall@ufc.com\",\r\n  \"Password\": \"TOmas12!\",\r\n  \"ConfirmPassword\": \"TOmas22!\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/auth/register",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "auth",
+                "register"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_AUTH_004",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"FirstName\": \"charles\",\r\n  \"LastName\": \"oliveira \",\r\n  \"Email\": \"JohnJones@ufc.com\",\r\n  \"Password\": \"Byd123@\",\r\n  \"ConfirmPassword\": \"Byd123@\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/auth/register",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "auth",
+                "register"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_AUTH_005",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"FirstName\": \"charles\",\r\n  \"LastName\": \"oliveira \",\r\n  \"Email\": \"JohnJones@ufc.com\",\r\n  \"Password\": \"Byd123@\",\r\n  \"ConfirmPassword\": \"Byd123@\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/auth/register",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "auth",
+                "register"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_AUTH_006",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"FirstName\": \"charles\",\r\n  \"LastName\": \"oliveira \",\r\n  \"Email\": \"charlesoliveira@ufc.com\",\r\n  \"Password\": \"Byd123\",\r\n  \"ConfirmPassword\": \"Byd123\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/auth/register",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "auth",
+                "register"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_AUTH_007",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"FirstName\": \"\",\r\n  \"LastName\": \"oliveira \",\r\n  \"Email\": \"charlesoliveira@ufc.com\",\r\n  \"Password\": \"Byd123\",\r\n  \"ConfirmPassword\": \"Byd123\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/auth/register",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "auth",
+                "register"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_AUTH_008",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"FirstName\": \"charles\",\r\n  \"LastName\": \"oliveira \",\r\n  \"Email\": \"charlesoliveira@ufc.com\",\r\n  \"Password\": \"Byd123@\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/auth/register",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "auth",
+                "register"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_AUTH_009",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"Email\": \"JohnJones@ufc.com\",\r\n  \"Password\": \"Jh0ne!\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/auth/login",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "auth",
+                "login"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_AUTH_0010",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"Email\": \"DiegoLopes@ufc.com\",\r\n  \"Password\": \"Jh0ne!\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/auth/login",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "auth",
+                "login"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_AUTH_011",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"Email\": \"JohnJones@ufc.com\",\r\n  \"Password\": \"Jh0nes\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/auth/login",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "auth",
+                "login"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_AUTH_012",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"Email\": \"JohnJones@ ufc.com\",\r\n  \"Password\": \"Jh0ne!\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/auth/login",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "auth",
+                "login"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_AUTH_013",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/auth/login",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "auth",
+                "login"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_AUTH_014",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/auth/me",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "auth",
+                "me"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_AUTH_015",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/auth/me",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "auth",
+                "me"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_AUTH_016",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Old_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/auth/me",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "auth",
+                "me"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Products",
+      "item": [
+        {
+          "name": "TC_PROD_001",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/product",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_PROD_002",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/product?MaxPrice=250&MinPrice=60",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product"
+              ],
+              "query": [
+                {
+                  "key": "MaxPrice",
+                  "value": "250"
+                },
+                {
+                  "key": "MinPrice",
+                  "value": "60"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_PROD_003",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/product?SortBy=price&SortDescending=true",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product"
+              ],
+              "query": [
+                {
+                  "key": "SortBy",
+                  "value": "price"
+                },
+                {
+                  "key": "SortDescending",
+                  "value": "true"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_PROD_004",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/product?SortBy=price&SortDescending=true",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product"
+              ],
+              "query": [
+                {
+                  "key": "SortBy",
+                  "value": "price"
+                },
+                {
+                  "key": "SortDescending",
+                  "value": "true"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_PROD_005",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "",
+                "description": "{"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/product/10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product",
+                "10"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_PROD_006",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "",
+                "description": "{"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/product/67",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product",
+                "67"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_PROD_007",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"4K Smart TV 45\\\"\",\r\n    \"description\": \"Ultra HD 4K Smart TV with HDR and built-in streaming apps\",\r\n    \"price\": 499.99,\r\n    \"stock\": 15,\r\n    \"imageUrl\": \"/assets/images/tv.jpg\",\r\n    \"categoryId\": 1\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/product",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_PROD_008",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"4K Smart TV 65\\\"\",\r\n    \"description\": \"Ultra HD 4K Smart TV with HDR and built-in streaming apps\",\r\n    \"price\": 699.99,\r\n    \"stock\": 16,\r\n    \"imageUrl\": \"/assets/images/tv.jpg\",\r\n    \"categoryId\": 1\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/product",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_PROD_009",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{    \"Name\": \"\",\r\n    \"description\": \"Ultra HD 4K Smart TV with HDR and built-in streaming apps\",\r\n    \"price\": 499.99,\r\n    \"stock\": 15,\r\n    \"imageUrl\": \"/assets/images/tv.jpg\",\r\n    \"categoryId\": 1\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/product",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_PROD_010",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{    \"Name\": \"4K Smart TV 65\\\"\",\r\n    \"description\": \"Ultra HD 4K Smart TV with HDR and built-in streaming apps\",\r\n    \"price\": 499.99,\r\n    \"stock\": -15,\r\n    \"imageUrl\": \"/assets/images/tv.jpg\",\r\n    \"categoryId\": 1\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/product",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_PROD_011",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{    \"Name\": \"4K Smart TV 65\\\"\",\r\n    \"description\": \"Ultra HD 4K Smart TV with HDR and built-in streaming apps\",\r\n    \"price\": 0,\r\n    \"stock\": 15,\r\n    \"imageUrl\": \"/assets/images/tv.jpg\",\r\n    \"categoryId\": 1\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/product",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_PROD_012",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{     \"Name\": \"4K Smart TV 65\\\"\",\r\n    \"description\": \"Ultra HD 4K Smart TV with HDR and built-in streaming apps\",\r\n    \"price\": -100,\r\n    \"stock\": 15,\r\n    \"imageUrl\": \"/assets/images/tv.jpg\",\r\n    \"categoryId\": 1\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/product",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_PROD_013",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{    \"Name\": \"4K Smart TV 65\\\"\",\r\n    \"description\": \"Ultra HD 4K Smart TV with HDR and built-in streaming apps\",\r\n    \"price\": 499.99,\r\n    \"stock\": 15,\r\n    \"imageUrl\": \"/assets/images/tv.jpg\",\r\n    \"categoryId\": 1,\r\n    \"DiscountPercentage\":200\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/product",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_PROD_014",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{    \"Name\": \"4K Smart TV 65\\\"\",\r\n    \"description\": \"Ultra HD 4K Smart TV with HDR and built-in streaming apps\",\r\n    \"price\": 499.99,\r\n    \"stock\": 15,\r\n    \"imageUrl\": \"/assets/images/tv.jpg\",\r\n    \"categoryId\": 1,\r\n    \"DiscountPercentage\":-10\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/product",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_PROD_015",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{    \"Name\": \"Professional Ultra-HD 4K Smart OLED Television 65-Inch High Dynamic Range HDR10+ Dolby Vision Atmos Audio Built-In Voice Control Assistant Wi-Fi Bluetooth HDMI 2.1 Gaming Hub Wall Mountable Premium Home Theater Display Screen\",\r\n    \"description\": \"Ultra HD 4K Smart TV with HDR and built-in streaming apps\",\r\n    \"price\": 499.99,\r\n    \"stock\": 15,\r\n    \"imageUrl\": \"/assets/images/tv.jpg\",\r\n    \"categoryId\": 1\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/product",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_PROD_016",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{    \"Name\": \"4K Smart TV 65\\\"\",\r\n    \"description\": \"Ultra HD 4K Smart TV with HDR and built-in streaming apps\",\r\n    \"price\": 499.99,\r\n    \"stock\": 15,\r\n    \"imageUrl\": \"/assets/images/tv.jpg\",\r\n    \"categoryId\": 67\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/product",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_PROD_017",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n            \"name\": \"4K Smart TV 45\\\"\",\n            \"description\": \"Amoled Ultra HD 4K Smart TV with HDR and built-in streaming apps\",\n            \"price\": 499.99,\n            \"discountedPrice\": 499.99,\n            \"stock\": 15,\n            \"imageUrl\": \"/assets/images/tv.jpg\",\n            \"categoryId\": 1,\n            \"discountPercentage\": 0\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/product/25",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product",
+                "25"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_PROD_018",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n            \"name\": \"4K Smart TV 45\\\"\",\n            \"description\": \"Smart TV with built-in streaming apps\",\n            \"price\": 499.99,\n            \"discountedPrice\": 499.99,\n            \"stock\": 15,\n            \"imageUrl\": \"/assets/images/tv.jpg\",\n            \"categoryId\": 1,\n            \"discountPercentage\": 0\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/product/25",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product",
+                "25"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_PROD_019",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n            \"name\": \"4K Smart TV 45\\\"\",\n            \"description\": \"Amoled Ultra HD 4K Smart TV with HDR and built-in streaming apps\",\n            \"price\": 499.99,\n            \"discountedPrice\": 499.99,\n            \"stock\": 15,\n            \"imageUrl\": \"/assets/images/tv.jpg\",\n            \"categoryId\": 1,\n            \"discountPercentage\": 0\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/product/67",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product",
+                "67"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_PROD_020",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:4200/api/product/23",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product",
+                "23"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_PROD_021",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:4200/api/product/11",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product",
+                "11"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Category",
+      "item": [
+        {
+          "name": "TC_CAT_001",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/category",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "category"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CAT_002",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"Ultra Smart TV 65\\\"\",\r\n    \"description\": \"Ultra HD 4K Smart TV with HDR and built-in streaming apps\",\r\n    \"price\": 699.99,\r\n    \"stock\": 16,\r\n    \"imageUrl\": \"/assets/images/tv.jpg\",\r\n    \"categoryId\": 1\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/product",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "product"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CAT_003",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/category/3",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "category",
+                "3"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CAT_004",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/category/67",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "category",
+                "67"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CAT_005",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"Hardware\",\r\n    \"description\": \"Hardware\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/category",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "category"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CAT_006",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"Toys\",\r\n    \"description\": \"Toys\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/category",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "category"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CAT_007",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/category",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "category"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CAT_008",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"Books\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/category",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "category"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CAT_009",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n       name\": \"Books\", \r\n       \"description\": \"Books, textbooks and educational materials, Storys\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/category/3",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "category",
+                "3"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CAT_011",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n        \"name\": \"Home & Kitchen\",\r\n        \"description\": \"Household items and kitchen appliances for food\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/category/5",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "category",
+                "5"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CAT_014",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n        \"name\": \"Home & Kitchen\",\r\n        \"description\": \"Household items and kitchen appliances for food\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/category/67",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "category",
+                "67"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CAT_012",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n        \"name\": \"Toys\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/category/10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "category",
+                "10"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CAT_013",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n        \"name\": \"Books\"\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/category/10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "category",
+                "10"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CAT_015",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/category/10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "category",
+                "10"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CAT_016",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/category/11",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "category",
+                "11"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CAT_017",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/category/9",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "category",
+                "9"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Cart",
+      "item": [
+        {
+          "name": "TC_CART_001",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User2_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/cart",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "cart"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CART_002",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/cart",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "cart"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CART_003",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/cart",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "cart"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CART_004",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"ProductId\":13, \r\n    \"Quantity\":1\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/cart/items",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "cart",
+                "items"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CART_005",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"ProductId\":13, \r\n    \"Quantity\":1\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/cart/items",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "cart",
+                "items"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CART_006",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"ProductId\":67, \r\n    \"Quantity\":1\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/cart/items",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "cart",
+                "items"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CART_007",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"ProductId\":4, \r\n    \"Quantity\":10\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/cart/items",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "cart",
+                "items"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CART_008",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"ProductId\":4, \r\n    \"Quantity\":-10\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/cart/items",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "cart",
+                "items"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CART_009",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"ProductId\":4, \r\n    \"Quantity\":0\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/cart/items",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "cart",
+                "items"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CART_010",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"ProductId\":14, \r\n    \"Quantity\":200\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/cart/items",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "cart",
+                "items"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CART_011",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"quantity\": 2\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/cart/items/2",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "cart",
+                "items",
+                "2"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CART_012",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"quantity\": 2\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/cart/items/420",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "cart",
+                "items",
+                "420"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CART_013",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"quantity\": -2\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/cart/items/2",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "cart",
+                "items",
+                "2"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CART_014",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{ {\r\n   \"id\": 29,\r\n            \"productId\": 15,\r\n            \"productName\": \"Adjustable Dumbbells Set\",\r\n            \"productImage\": \"/assets/images/dumbbells.jpg\",\r\n            \"unitPrice\": 199.99,\r\n            \"discountPercentage\": 15.00,\r\n            \"quantity\": 1,\r\n            \"subtotal\": 169.99       \r\n        }}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/cart/items/2",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "cart",
+                "items",
+                "2"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CART_015",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/cart/items/9",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "cart",
+                "items",
+                "9"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CART_016",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/cart/items/3",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "cart",
+                "items",
+                "3"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CART_017",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/cart/",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "cart",
+                ""
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_CART_018",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/cart/",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "cart",
+                ""
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Order",
+      "item": [
+        {
+          "name": "TC_ORD_001",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User2_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/order",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "order"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ORD_002",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/order",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "order"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ORD_003",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/order",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "order"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ORD_004",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/order",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "order"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ORD_005",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/order/67",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "order",
+                "67"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ORD_006",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/order/67",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "order",
+                "67"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ORD_007",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/order?page=1&limit=3",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "order"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "1"
+                },
+                {
+                  "key": "limit",
+                  "value": "3"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ORD_008",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/order?sort=totalAmount_dec",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "order"
+              ],
+              "query": [
+                {
+                  "key": "sort",
+                  "value": "totalAmount_dec"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ORD_009",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/order?shippingAddress=jordan",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "order"
+              ],
+              "query": [
+                {
+                  "key": "shippingAddress",
+                  "value": "jordan"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ORD_0010",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/order?shippingAddress=@",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "order"
+              ],
+              "query": [
+                {
+                  "key": "shippingAddress",
+                  "value": "@"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ORD_011",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"ShippingAddress\" :\"Jordan\" , \r\n    \"PaymentMethod\" :\"Cash\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/order",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "order"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ORD_012",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"ShippingAddress\" :\"UAE\" \r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/order",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "order"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ORD_013",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"ShippingAddress\" :\"UAE\" \r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/order",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "order"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ORD_014",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"ShippingAddress\" :\"UAE\" \r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/order",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "order"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ORD_015",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\"Status\" : \"Cancelled\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/order/9/Status",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "order",
+                "9",
+                "Status"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ORD_016",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\"Status\" : \"Cancelled\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/order/11/Status",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "order",
+                "11",
+                "Status"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ORD_017",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\"Status\" : \"Burger\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/order/11/Status",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "order",
+                "11",
+                "Status"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ORD_018",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\"Status\" : \"Burger\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/order/67/Status",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "order",
+                "67",
+                "Status"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ORD_019",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\"ShippingAddress\" : \"\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/order/11/Status",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "order",
+                "11",
+                "Status"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ORD_020",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\"ShippingAddress\" : \"Jordan\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/order/11/Status",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "order",
+                "11",
+                "Status"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Review",
+      "item": [
+        {
+          "name": "TC_REV_001",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/review/product/9",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "review",
+                "product",
+                "9"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_REV_002",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"ProductId\": 9, \r\n    \"Rating\":5, \r\n    \"Comment\": \"Great Product\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/review/product/9",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "review",
+                "product",
+                "9"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_REV_003",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"ProductId\": 9,\r\n    \"Rating\":5,\r\n    \"Comment\": \"Great Product\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/review",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "review"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_REV_004",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"ProductId\": 67,\r\n    \"Rating\":4,\r\n    \"Comment\": \"Nice Product\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/review",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "review"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_REV_005",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"ProductId\": 9,\r\n    \"Rating\":-2,\r\n    \"Comment\": \"Trash\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/review",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "review"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_REV_006",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"ProductId\": 11,\r\n    \"Rating\":7,\r\n    \"Comment\": \"Love it\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/review",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "review"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_REV_007",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"ProductId\": 11,\r\n    \"Rating\":1,\r\n    \"Comment\": \"I HATE IT\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/review",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "review"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_REV_008",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/review/3",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "review",
+                "3"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_REV_009",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/review/4",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "review",
+                "4"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_REV_010",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/review/4",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "review",
+                "4"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_REV_011",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/review/67",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "review",
+                "67"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Wishlist",
+      "item": [
+        {
+          "name": "TC_WISH_001",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User2_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/wishlist",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "wishlist"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_WISH_002",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/wishlist",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "wishlist"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_WISH_003",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/wishlist",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "wishlist"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_WISH_004",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/wishlist/12",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "wishlist",
+                "12"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_WISH_005",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/wishlist/12",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "wishlist",
+                "12"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_WISH_006",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/wishlist/420",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "wishlist",
+                "420"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_WISH_007",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/wishlist/9",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "wishlist",
+                "9"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_WISH_008",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/wishlist/8",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "wishlist",
+                "8"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_WISH_009",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/wishlist/8",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "wishlist",
+                "8"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_WISH_010",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/wishlist/9",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "wishlist",
+                "9"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Admin",
+      "item": [
+        {
+          "name": "TC_ADM_001",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/admin/dashboard",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "admin",
+                "dashboard"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ADM_002",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/admin/dashboard",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "admin",
+                "dashboard"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ADM_003",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/admin/dashboard",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "admin",
+                "dashboard"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ADM_004",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Admin_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/admin/revenue",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "admin",
+                "revenue"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ADM_005",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{User_Token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/admin/revenue",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "admin",
+                "revenue"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC_ADM_006",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4200/api/admin/revenue",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4200",
+              "path": [
+                "api",
+                "admin",
+                "revenue"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "User_Token",
+      "secret": true
+    },
+    {
+      "key": "AccessToken",
+      "secret": true
+    },
+    {
+      "key": "RefreshToken",
+      "secret": true
+    },
+    {
+      "key": "Old_Token",
+      "secret": true
+    },
+    {
+      "key": "Admin_Token",
+      "secret": true
+    },
+    {
+      "key": "User2_Token",
+      "secret": true
+    }
+  ]
+}
